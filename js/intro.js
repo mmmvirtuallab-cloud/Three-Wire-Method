@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('top-bar-title').textContent = INTRO_CONTENT.headerTitle;
     const btn = document.getElementById('action-btn');
     btn.textContent = `${INTRO_CONTENT.buttonLabel} →`;
-    btn.onclick = () => window.open(INTRO_CONTENT.buttonLink, '_blank');
+    btn.onclick = () => window.open(INTRO_CONTENT.buttonLink, '_self');
 
     // 2. Main Title
     document.getElementById('main-title').textContent = INTRO_CONTENT.mainHeading;
