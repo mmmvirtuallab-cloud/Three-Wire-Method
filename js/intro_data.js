@@ -2,10 +2,10 @@
 
 export const INTRO_CONTENT = {
     // Top Blue Bar Text
-    headerTitle: "Three wire method ",
+    headerTitle: "Three wire",
     
     // Button Text & Link
-    buttonLabel: "Go to Experiment",
+    buttonLabel: "Experiment",
     buttonLink: "lab.html",
 
     // Main Page Content
